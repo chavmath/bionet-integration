@@ -1,3 +1,7 @@
+CREATE DATABASE bionet
+
+USE bionet
+
 CREATE TABLE resultados_examenes (
     id INT IDENTITY PRIMARY KEY,
     laboratorio_id INT NOT NULL,
