@@ -1,0 +1,4 @@
+laboratorio_id,paciente_id,tipo_examen,resultado,fecha_examen
+1,123456,Glucosa,95,2025-04-22
+1,123456,Colesterol,180,2025-04-22
+1,654321,Hemoglobina,13.5,2025-04-22

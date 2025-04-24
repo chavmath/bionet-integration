@@ -1,0 +1,3 @@
+laboratorio_id,paciente_id,tipo_examen,resultado,fecha_examen
+3,111222,Glucosa,,2025-04-23
+3,111222,,120,2025-04-23
