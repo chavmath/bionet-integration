@@ -7,3 +7,11 @@ CREATE TABLE resultados_examenes (
     fecha_examen DATE,
     CONSTRAINT UQ_examen_paciente_fecha UNIQUE (paciente_id, tipo_examen, fecha_examen)
 );
+
+CREATE TABLE log_cambios_resultados (
+    id INT IDENTITY PRIMARY KEY,
+    operacion VARCHAR(10),
+    paciente_id VARCHAR(50),
+    tipo_examen VARCHAR(100),
+    fecha DATE
+);
